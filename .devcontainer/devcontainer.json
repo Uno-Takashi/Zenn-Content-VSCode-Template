@@ -1,0 +1,26 @@
+{
+    "name": "Zenn Content",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "zenn-server",
+    "workspaceFolder": "/workspace",
+    "settings": {
+        "editor.guides.bracketPairs": true,
+        "editor.bracketPairColorization.enabled": true,
+        "markdown-preview-enhanced.previewTheme": "github-dark.css",
+        "markdownlint.run": "onSave",
+        "[json]": {
+            "editor.formatOnSave": true,   
+        },
+        "[markdown]": {
+            "editor.formatOnSave": true,   
+        },
+        "textlint.autoFixOnSave": true
+    },
+    "extensions": [
+		"ms-azuretools.vscode-docker",
+		"njpwerner.autodocstring",
+		"davidanson.vscode-markdownlint",
+		"shd101wyy.markdown-preview-enhanced",
+		"taichi.vscode-textlint"
+	],
+}

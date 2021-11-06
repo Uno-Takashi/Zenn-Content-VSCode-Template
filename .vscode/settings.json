@@ -1,0 +1,6 @@
+{
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "[json]": {
+        "editor.formatOnSave": true
+    }
+}

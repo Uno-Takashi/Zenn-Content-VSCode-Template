@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Create Article",
+            "detail": "記事を作成します。",
+            "type": "shell", 
+            "command": "npx", 
+            "args": [ 
+                "zenn",
+                "new:article"
+            ],
+            "group": "build", 
+            "presentation": {
+                "reveal": "always",
+                "clear": true,
+                "echo": false
+            },
+            "problemMatcher": []
+        },
+    ]
+}

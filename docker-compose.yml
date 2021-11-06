@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  zenn-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 'zenn-server'
+    tty: true
+    volumes:
+      - ./:/workspace
+    ports:
+      - "8000:8000"
+    command: sh entrypoint.sh
